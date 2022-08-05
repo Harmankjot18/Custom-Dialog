@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/purple"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvName"
+    android:text="@string/your_name"
+    android:textSize="22sp"
+    android:layout_margin="10dp">
+
+</TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvName2"
+        android:hint="@string/your_name"
+        android:layout_margin="10dp"
+        android:textSize="22sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddress"
+        android:text="@string/your_address"
+        android:textSize="22sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddress2"
+        android:hint="@string/your_address"
+        android:layout_margin="10dp"
+        android:textSize="22sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGender"
+        android:text="@string/your_gender"
+        android:textSize="22sp"
+        android:layout_margin="10dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGender2"
+        android:hint="@string/your_gender"
+        android:layout_margin="10dp"
+        android:textSize="22sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOther"
+        android:hint="@string/your_other_gender"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:textSize="22sp">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdate"
+        android:layout_gravity="center"
+        android:text="@string/update"
+        android:textSize="22sp">
+
+    </Button>
+</LinearLayout>
+</layout>

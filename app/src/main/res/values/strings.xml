@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DialogApplication</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_address">Your Address</string>
+    <string name="your_gender">Your Gender</string>
+    <string name="update">Update</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="He">He</string>
+    <string name="she">She</string>
+    <string name="other">Other</string>
+    <string name="enter_other_gender">Enter Other Gender</string>
+    <string name="your_other_gender">Other gender</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName1"
+        android:hint="@string/enter_name"
+        android:layout_margin="10dp"
+        android:textSize="22sp">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAddress1"
+        android:hint="@string/enter_address"
+        android:layout_margin="10dp"
+        android:textSize="22sp">
+
+    </EditText>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rgGender">
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbHe"
+            android:text="@string/He"
+            android:layout_marginRight="40dp">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbShe"
+            android:text="@string/she"
+            android:layout_marginRight="40dp">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rbOther"
+        android:text="@string/other"
+            android:layout_marginRight="40dp">
+
+    </RadioButton>
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etOther1"
+        android:hint="@string/enter_other_gender"
+        android:visibility="gone">
+
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdate1"
+        android:layout_gravity="center"
+        android:text="@string/update"
+        android:textSize="22sp">
+
+    </Button>
+
+</LinearLayout>
+</layout>
